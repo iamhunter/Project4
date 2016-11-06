@@ -47,9 +47,11 @@
       <file leaf-file-name="AbstractGSE.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="425">
+              <caret line="156" column="9" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -446,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478463799756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Error messages for union are gone.. Still have some warnings. Moving on for now">
+      <created>1478470744238</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478470744238</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,7 +501,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing.." />
     <MESSAGE value="New Constructor for GenericSet1. Copypasta to AbstractGSE. Fixing that next&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Constructor for GenericSet1. Copypasta to AbstractGSE. Fixing that next&#10;" />
+    <MESSAGE value="Error messages for union are gone.. Still have some warnings. Moving on for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error messages for union are gone.. Still have some warnings. Moving on for now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -539,9 +549,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="156" column="9" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
