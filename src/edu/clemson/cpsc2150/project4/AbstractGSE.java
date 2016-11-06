@@ -6,36 +6,36 @@ package edu.clemson.cpsc2150.project4;
 public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
     @Override
     public final void union(GenericSet<T> rhs) {
-        GenericSet copiedThis = new GenericSet1(100);
+        GenericSet copiedThis = new GenericSet2();
         GenericSet copiedrhs = new GenericSet2();
         this.copy(copiedThis);
 
 
-        StringSet tempSet = new StringSet1(100);
-        while(rhs.sizeOfSet() > 0)
+        GenericSet tempSet = new GenericSet2();
+        while(rhs.size() > 0)
         {
-            String temp = rhs.removeAny();
+            T temp = rhs.removeAny();
             copiedrhs.insert(temp);
             tempSet.insert(temp);
         }
-        while(tempSet.sizeOfSet() > 0)
+        while(tempSet.size() > 0)
         {
-            rhs.insert(tempSet.removeAny());
+            rhs.insert((T)tempSet.removeAny());
         }
 
 
 
-        while(copiedThis.sizeOfSet() > 0)
+        while(copiedThis.size() > 0)
         {
-            String tempOrary = copiedThis.removeAny();
-            if(!result.contains(tempOrary)) {
-                result.insert(tempOrary);
+            T tempOrary = (T)copiedThis.removeAny();
+            if(!this.contains(tempOrary)) {
+                this.insert(tempOrary);
             }
         }
-        while(copiedrhs.sizeOfSet() > 0) {
-            String tempOrary = copiedrhs.removeAny();
-            if (!result.contains(tempOrary)) {
-                result.insert(tempOrary);
+        while(copiedrhs.size() > 0) {
+            T tempOrary = (T)copiedrhs.removeAny();
+            if (!this.contains(tempOrary)) {
+                this.insert(tempOrary);
             }
         }
     }

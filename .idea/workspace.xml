@@ -4,7 +4,6 @@
     <list default="true" id="5a319be0-089b-4016-b215-3c84b5d1dda1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java" afterPath="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet1.java" afterPath="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet1.java" />
     </list>
     <ignored path="Project4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractGSE.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AbstractGSE.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericSet1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenericSet1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#695#696#0" expanded="true" />
@@ -71,9 +70,12 @@
       <file leaf-file-name="GenericSet2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <folding>
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +93,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java" />
         <option value="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet1.java" />
+        <option value="$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java" />
       </list>
     </option>
   </component>
@@ -437,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478454040439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Constructor for GenericSet1. Copypasta to AbstractGSE. Fixing that next&#10;">
+      <created>1478463799756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478463799756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,7 +491,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing.." />
-    <option name="LAST_COMMIT_MESSAGE" value="testing.." />
+    <MESSAGE value="New Constructor for GenericSet1. Copypasta to AbstractGSE. Fixing that next&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Constructor for GenericSet1. Copypasta to AbstractGSE. Fixing that next&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -505,30 +515,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/GenericSet1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clemson/cpsc2150/project4/AbstractGSE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
