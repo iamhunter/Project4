@@ -18,6 +18,11 @@ public class GenericSet1<T> extends AbstractGSE<T> {
     private int myNext;
     private T[] myContents;
 
+    GenericSet1(int length)
+    {
+        myContents = (T[])new Object[length];
+    }
+
     @Override
     public void insert(T element) {
         myContents[myNext++] = element;
