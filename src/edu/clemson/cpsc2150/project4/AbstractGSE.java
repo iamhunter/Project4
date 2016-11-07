@@ -96,7 +96,7 @@ public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
     }
     @Override
     public final void copy(GenericSet<T> set) {
-        GenericSet tempSet = new GenericSet2();
+        GenericSet tempSet = new GenericSet1(100);
         while(this.size() > 0)
         {
             T temp = this.removeAny();

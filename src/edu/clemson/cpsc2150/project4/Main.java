@@ -48,7 +48,7 @@ public class Main {
         }
 
         // Parse the words out of line one and line two.
-        GenericSetExtended firstLine = new GenericSet2();
+        GenericSetExtended firstLine = new GenericSet1(100);
         GenericSetExtended secondLine = new GenericSet2();
 
         int count = 0;
@@ -62,10 +62,10 @@ public class Main {
         }
 
         for(int i = 0; i < count; i = i + 2) {
-            for (String word : lines[i].split(" "))
+            for (Object word : lines[i].split(" "))
                 if (!firstLine.contains(word))
                     firstLine.insert(word);
-            for (String word : lines[i+1].split(" "))
+            for (Object word : lines[i+1].split(" "))
                 if (!secondLine.contains(word))
                     secondLine.insert(word);
 

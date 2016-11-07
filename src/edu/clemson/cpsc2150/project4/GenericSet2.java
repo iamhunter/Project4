@@ -12,7 +12,7 @@ public class GenericSet2<T> extends AbstractGSE<T> {
 
     GenericSet2()
     {
-        ArrayList<T> myContents=new ArrayList<T>();
+        myContents=new ArrayList<T>();
 
     }
 
