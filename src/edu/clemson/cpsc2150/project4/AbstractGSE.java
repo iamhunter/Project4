@@ -9,12 +9,12 @@ import sun.net.www.content.text.Generic;
 public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
     @Override
     public final void union(GenericSet<T> rhs) {
-        GenericSet copiedThis = new GenericSet2();
-        GenericSet copiedrhs = new GenericSet2();
+        GenericSet copiedThis = new GenericSet1(100);
+        GenericSet copiedrhs = new GenericSet1(100);
         this.copy(copiedThis);
 
 
-        GenericSet tempSet = new GenericSet2();
+        GenericSet tempSet = new GenericSet1(100);
         while(rhs.size() > 0)
         {
             T temp = rhs.removeAny();

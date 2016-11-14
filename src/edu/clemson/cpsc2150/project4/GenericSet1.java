@@ -26,7 +26,6 @@ public class GenericSet1<T> extends AbstractGSE<T> {
     @Override
     public void insert(T element) {
         myContents[myNext++] = element;
-
     }
 
     @Override
@@ -36,7 +35,8 @@ public class GenericSet1<T> extends AbstractGSE<T> {
                 return true;
             }
         }
-        return false;    }
+        return false;
+    }
 
     @Override
     public void remove(T element) {
@@ -55,7 +55,12 @@ public class GenericSet1<T> extends AbstractGSE<T> {
 
     @Override
     public T removeAny() {
-        return myContents[--myNext];
+        T tmp = myContents[0];
+        --myNext;
+        for (int i = 0; i < myNext; ++i) {
+            myContents[i] = myContents[i + 1];
+        }
+        return tmp;
 
     }
 

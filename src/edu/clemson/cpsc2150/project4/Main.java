@@ -48,7 +48,7 @@ public class Main {
         }
 
         // Parse the words out of line one and line two.
-        GenericSetExtended firstLine = new GenericSet1(100);
+        GenericSetExtended firstLine = new GenericSet2();
         GenericSetExtended secondLine = new GenericSet2();
 
         int count = 0;
@@ -73,8 +73,8 @@ public class Main {
             GenericSet union = new GenericSet2(), intersection = new GenericSet2(), difference = new GenericSet2();
 
             firstLine.union(secondLine);
-            firstLine.intersect(secondLine);
-            firstLine.difference(secondLine);
+            //firstLine.intersect(secondLine);
+            //firstLine.difference(secondLine);
 
             // Print all of the sets, including the state of the initial sets.
             System.out.println("First line: " + firstLine);
