@@ -9,9 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,9 +48,34 @@ public class Main {
             System.exit(1);
         }
 
-        boolean testBool = false;
+        boolean customBool = false;
+        System.out.print("Enter 'JCL' or 'Custom' to use either JCL set objects or Custom set objects: ");
+        Scanner scanner = new Scanner(System.in);
+        String nameCustomForBool = scanner.next();
 
-        if (testBool)
+        if(Objects.equals(nameCustomForBool, "Custom") || Objects.equals(nameCustomForBool, "custom"))
+        {
+            System.out.println();
+            System.out.println("You entered " + nameCustomForBool + " so the program will execute using the Custom set objects\n");
+            customBool = true;
+        }
+
+        else if(Objects.equals(nameCustomForBool, "JCL") || Objects.equals(nameCustomForBool, "jcl"))
+        {
+            System.out.println();
+            System.out.println("You entered " + nameCustomForBool + " so the program will execute using the Custom set objects\n");
+            customBool = false;
+        }
+        else
+        {
+            System.out.println();
+            System.err.println("Your input, " + nameCustomForBool + " is not a valid input. Next time, please try inputting 'Custom' or 'JCL' Terminating program.");
+            return;
+        }
+
+
+
+        if (customBool)
         {
             // Parse the words out of line one and line two.
             GenericSetExtended firstLine = new GenericSet1(100);
