@@ -9,12 +9,12 @@ import sun.net.www.content.text.Generic;
 public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
     @Override
     public final void union(GenericSet<T> rhs) {
-        GenericSet copiedThis = new GenericSet1(100);
-        GenericSet copiedrhs = new GenericSet1(100);
+        GenericSet copiedThis = new GenericSet2();
+        GenericSet copiedrhs = new GenericSet2();
         this.copy(copiedThis);
 
 
-        GenericSet tempSet = new GenericSet1(100);
+        GenericSet tempSet = new GenericSet2();
         while(rhs.size() > 0)
         {
             T temp = rhs.removeAny();
@@ -26,13 +26,7 @@ public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
             rhs.insert((T)tempSet.removeAny());
         }
 
-        while(copiedThis.size() > 0)
-        {
-            T tempOrary = (T)copiedThis.removeAny();
-            if(!this.contains(tempOrary)) {
-                this.insert(tempOrary);
-            }
-        }
+
         while(copiedrhs.size() > 0) {
             T tempOrary = (T)copiedrhs.removeAny();
             if (!this.contains(tempOrary)) {
@@ -56,6 +50,10 @@ public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
         while(tempSet.size() > 0)
         {
             rhs.insert((T)tempSet.removeAny());
+        }
+        while(this.size() > 0)
+        {
+            this.removeAny();
         }
 
         while(copiedThis.size() > 0)
@@ -83,6 +81,11 @@ public abstract class AbstractGSE<T> implements GenericSetExtended<T> {
         while(tempSet.size() > 0)
         {
             rhs.insert((T)tempSet.removeAny());
+        }
+
+        while(this.size() > 0)
+        {
+            this.removeAny();
         }
 
         while(copiedThis.size() > 0)

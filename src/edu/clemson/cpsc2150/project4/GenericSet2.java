@@ -16,6 +16,7 @@ public class GenericSet2<T> extends AbstractGSE<T> {
 
     }
 
+
     @Override
     public void insert(T element) {
         myContents.add(element);
