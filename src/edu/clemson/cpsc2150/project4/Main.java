@@ -69,7 +69,7 @@ public class Main {
         else
         {
             System.out.println();
-            System.err.println("Your input, " + nameCustomForBool + " is not a valid input. Next time, please try inputting 'Custom' or 'JCL' Terminating program.");
+            System.err.println("Your input, " + nameCustomForBool + " is not a valid input. Next time, please try inputting 'Custom' or 'JCL'. Terminating program.");
             return;
         }
 
