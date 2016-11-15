@@ -1,8 +1,5 @@
 package edu.clemson.cpsc2150.project4;
 
-import com.sun.tools.javac.jvm.Gen;
-import sun.net.www.content.text.Generic;
-
 /**
  * Created by andrewmarionhunter on 11/2/16.
  */
